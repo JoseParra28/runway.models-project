@@ -45,16 +45,20 @@ line-height: 75px;
     color: inherit;
 }
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px dashed #3a3a3a;
     
 }
 .active {
     border-bottom: none
 }
-#hero-image1 {
-    height: 600px;
-    width: 100px;
-    background: url(../css/images/IMG_2361.jpg) no-repeat center center;
+#hero-image {
+    height: 100px;
+    width: 400px;
+    background: url(../css/images/hero-image.webp) no-repeat center center ;
+    float: right;
+    
+
+
 }
 
 
