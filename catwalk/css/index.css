@@ -15,7 +15,8 @@ body{
 #logo {
     float: right;
     font-size: 280%;
-    margin-right: 30px;
+    margin-right: 150px;
+    border-bottom: 2px solid #3a3a3a;
 }
     h1,h2{
         font-family: 'Oswald' sans-serif;
@@ -55,24 +56,16 @@ line-height: 75px;
 #hero-image {
     height: 1400px;
     width: 50px;
-    background: url(../css/images/pexels-photo-4297233.jpeg);
+    background: url(../css/images/pexels-photo-1759409.jpeg);
     background-repeat: no-repeat;
     background-size:auto ;
     background-position: center;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     animation-name: africa;
     animation-duration: 5s;
     animation-fill-mode: both;
     animation-delay: 1s;
-}
-@keyframes africa {
-    from {
-transform: scale(1);
-    }
-    to {
-transform: scale(1.1);
-    }
 }
 
 
