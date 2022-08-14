@@ -28,7 +28,7 @@ body{
     }
  h2 {
     float: right;
-    font-size: 280;
+    font-size: 300px;
 }
 #mennu, #logo {
 line-height: 75px;
@@ -38,12 +38,12 @@ line-height: 75px;
     list-style: none;
     margin-left: 30px;
     margin-top: 30px;
-    text-size-adjust: 100px;
+    font-size: 30px;
     
     
 }
 #menu a {
-    direction: none;
+text-decoration: none;
     color: inherit;
 }
 #menu a:hover {
@@ -53,21 +53,46 @@ line-height: 75px;
 .active {
     border-bottom: none
 }
-#hero-image {
+#hero-image{
     height: 1400px;
-    width: 50px;
-    background: url(../css/images/pexels-photo-1759409.jpeg);
-    background-repeat: no-repeat;
+    width: 100%;
+    background: url(../css/images/happy\ girl.jpeg);
+    background-repeat: no-repeat;oto-
     background-size:auto ;
     background-position: center;
-    width: 100%;
     overflow: hidden;
-    animation-name: africa;
-    animation-duration: 5s;
-    animation-fill-mode: both;
-    animation-delay: 1s;
+    position: relative;
+    margin-left: 0%;
+     
 }
-
-
+#cover-text {
+    font-family: 'Oswald' sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 1000px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color:  rgb(188, 184, 184, .5);
+    bottom: 10%;
+    right: 150px;
+    position: absolute;
+}
+#cover-text h2{
+    font-size: 40px;
+    color: #3a3a3a;
+    border-bottom: 1px solid;
+}
+#about-us-text{
+    font-size:40px;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    text-align: right;
+    margin-left: 50px;
+    position: right;
+}
+#about-text{
+    font-size: 20px ;
+}
 
 
