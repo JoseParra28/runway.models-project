@@ -73,7 +73,7 @@ text-decoration: none;
     height: 100px;
     padding-top: 40px;
     padding-left: 40px;
-    background-color:  rgb(188, 184, 184, .5);
+    background-color: rgba(53, 49, 49, 0.5);
     bottom: 10%;
     right: 150px;
     position: absolute;
@@ -83,16 +83,12 @@ text-decoration: none;
     color: #3a3a3a;
     border-bottom: 1px solid;
 }
-#about-us-text{
-    font-size:40px;
+.cover-text{
+    font-size: small;
+    text-align: left;
     text-transform: uppercase;
-    color: #3a3a3a;
-    text-align: right;
-    margin-left: 50px;
-    position: right;
+    width: fit-content;
+    height: auto;
+    padding-top: 50px;
+    position: relative;
 }
-#about-text{
-    font-size: 20px ;
-}
-
-
