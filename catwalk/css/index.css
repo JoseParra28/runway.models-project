@@ -109,3 +109,22 @@ transform: scale(1.1);
     padding-top: 50px;
     position: relative;
 }
+#about {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 80px;
+    float: left 30%;
+
+}
+#intro p {
+    text-align: c;
+    font-size: 15px;
+    padding: auto;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+    
+}
