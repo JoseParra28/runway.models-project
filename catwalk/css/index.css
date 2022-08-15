@@ -195,5 +195,18 @@ transform: scale(1.1);
     transform:scale(1.2);
     z-index: 2;
 }
+#form-image {
+    background-image: url(../css/images/man\ in\ white\ top.webp);
+    height: 1400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-top: 0%;
+    position: relative;
+    opacity: .3;   
+}
 
 
