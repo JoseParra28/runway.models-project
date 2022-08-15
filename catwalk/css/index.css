@@ -147,7 +147,7 @@ transform: scale(1.1);
     text-align: left;
     margin-right: 500px;
     margin-left: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 500px;
     padding-right: 200px;
     
    }
@@ -198,19 +198,18 @@ transform: scale(1.1);
 }
 /*form*/
 
-.form-section {
+#form-section {
     clear:both;
-    background: url(http://www.assetsmodels.com/index.php/contact/);
+    /*background-image: url(../css/images/man\ in\ white\ top.webp);*/
+    background-image: url(../css/images/white\ suit.jpeg);
     background-color: #3a3a3a;
     background-size: cover;
     background-position: center;
-    
-
+    overflow: hidden;
 }
 .signup-form {
     margin: 150px 10% 0 0;
     color: #3a3a3a;
-    background-image: url(../css/images/man\ in\ white\ top.webp);
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -249,21 +248,40 @@ transform: scale(1.1);
     color: rgb(188, 184, 184)
     opacity: .9;
 }
- 
-/* form image*/
+
+/*
 #form-image {
-    background-image: url(../css/images/man\ in\ white\ top.webp);
+    
     height: 1400px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover ;
-    background-position: center;
+    background-size:auto ;
+    background-position: right;
     overflow: hidden;
     margin-left: 0%;
     margin-top: 0%;
     position: relative;
     opacity: .6; 
 
+}
+*/
+@media screen and (max-width:1200px ){
+    body {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    div #cover-text {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+    * {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+    
+    }
+    
 }
 
 
