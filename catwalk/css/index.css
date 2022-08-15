@@ -68,6 +68,7 @@ text-decoration: none;
     margin-left: 0%;
     margin-top: 0%;
     position: relative;
+    opacity: .5;
     
     
 }
@@ -81,7 +82,7 @@ text-decoration: none;
     padding-top: 40px;
     padding-left: 40px;
     background-color: rgba(53, 49, 49, 0.5);
-    bottom: 10%;
+    bottom: 60%;
     right: 150px;
     position: absolute;
     animation-name: hero-zoom;
@@ -111,7 +112,7 @@ transform: scale(1.1);
     position: absolute;
     text-align: left 10;
     clear: both;
-    border-bottom: #3a3a3a 1px solid;
+  
 }
 #we-are-p {
     font-family: 'Oswald' sans-serif;
@@ -141,6 +142,20 @@ transform: scale(1);
 transform: scale(1.1);
     }
 }
+#table {
+    background-color: #3a3a3a;
+    width: 400px;
+    position:relative;
+    text-align: left;
+    margin-right: 500px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    padding-right: 200px;
+    
+   }
+#table th {
+    text-align: center;
+}
 
 
 #about-image {
@@ -154,16 +169,7 @@ transform: scale(1.1);
     margin-left: 0%;
     margin-top: 0%;
     position: relative;
-    opacity: .7;
-    
-    
+    opacity: .5;   
 }
-#gallery {
-    background-image: url(../css/images/pexels-photo-1759409.jpeg);
-    clear: both;
-    line-height: 0%;
-    column-count: 4;
-    column-gap: 4px;
-}
-#gallery > img {
-    width: 100%;
+
+
