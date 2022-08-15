@@ -141,6 +141,7 @@ transform: scale(1.1);
 }
 #table {
     background-color: #3a3a3a;
+    background-image: url(../css/images/side\ view\ of\ woman.jpeg);
     width: 400px;
     position:relative;
     text-align: left;
@@ -195,6 +196,61 @@ transform: scale(1.1);
     transform:scale(1.2);
     z-index: 2;
 }
+/*form*/
+
+.form-section {
+    clear:both;
+    background: url(http://www.assetsmodels.com/index.php/contact/);
+    background-color: #3a3a3a;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #3a3a3a;
+    background-image: url(../css/images/man\ in\ white\ top.webp);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+
+}
+.signup-form > h2 {
+    color: #3a3a3a;
+    margin-bottom: 20px;
+}
+.text-input-form {
+    background:transparent;
+    color:#3a3a3a;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+}
+.text-input-form:hover { 
+    border-color:#3a3a3a;
+    background-color: rgb(36, 53, 36);
+    opacity: .9;
+}
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color:#3a3a3a;
+    display: block;
+}
+.join-button:hover {
+    background-color: rgb(36, 53, 36);
+    color: rgb(188, 184, 184)
+    opacity: .9;
+}
+ 
+/* form image*/
 #form-image {
     background-image: url(../css/images/man\ in\ white\ top.webp);
     height: 1400px;
@@ -206,7 +262,8 @@ transform: scale(1.1);
     margin-left: 0%;
     margin-top: 0%;
     position: relative;
-    opacity: .3;   
+    opacity: .6; 
+
 }
 
 
