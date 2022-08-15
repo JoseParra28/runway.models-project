@@ -29,10 +29,7 @@ body{
         margin-right: 30px;
         
     }
- h2 {
-    float: ;
-    font-size: 300px;
-}
+
 #mennu, #logo {
 line-height: 75px;
 position: relative;
@@ -68,7 +65,7 @@ text-decoration: none;
     margin-left: 0%;
     margin-top: 0%;
     position: relative;
-    opacity: .5;
+    opacity: .7;
     
     
 }
@@ -169,7 +166,7 @@ transform: scale(1.1);
     margin-left: 0%;
     margin-top: 0%;
     position: relative;
-    opacity: .5;   
+    opacity: .6;   
 }
 .models-gallery {
     width: 90%;
@@ -183,15 +180,15 @@ transform: scale(1.1);
     padding-top: 300px;
     width: 350px;
     margin: 0 10px;
-    box-shadow: 0 0 20px 2px rgb(0,0,0 .1);
+    box-shadow: 0 0 10px 2px rgb(0,0,0 .1);
     transition: 1s;
     
 }
 #foto img {
-    display:contents;
+    display:block;
     width: 100%;
-    border-radius: 5px;
-    row-gap: 100%;
+    border-radius: 2px;
+    
     
 }
 #foto:hover {
