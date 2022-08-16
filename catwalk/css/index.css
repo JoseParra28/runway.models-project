@@ -223,6 +223,15 @@ opacity: .6;
     transform:scale(1.2);
     z-index: 2;
 }
+#model-names {
+    float: right;
+    list-style: none;
+    margin-right: 150px;
+    margin-top: 30px;
+    font-size: 30px;
+    display: block;
+}
+
 /*form*/
 
 .form-image {
