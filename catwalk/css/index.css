@@ -255,11 +255,20 @@ footer {
 text-align: center;
 display: block;
 }
-.social-media i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 1%;
-    color: #3a3a3a;
+
+.social-media li {
+    float:right;
+    list-style: none;
+    margin-right: 150px;
+    margin-top: 30px;
+    font-size: 30px;  
+}
+.social-media a {
+text-decoration: none;
+    color: inherit;
+}
+.social-media a:hover {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /*
