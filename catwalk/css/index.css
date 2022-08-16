@@ -147,7 +147,7 @@ transform: scale(1.1);
     text-align: left;
     margin-right: 500px;
     margin-left: 200px;
-    margin-bottom: 500px;
+    margin-bottom: 5px;
     padding-right: 200px;
     
    }
@@ -245,12 +245,13 @@ transform: scale(1.1);
 }
 .join-button:hover {
     background-color: rgb(36, 53, 36);
-    color: rgb(188, 184, 184)
+    color: rgb(188, 184, 184);
     opacity: .9;
 }
 footer {
     height: 100px;
-    background-color: red;
+    background-color:#3a3a3a;
+    opacity: .5;
 }
 
 #footer-text {
@@ -265,6 +266,7 @@ footer {
     margin-right: 700px;
     margin-top: 5px;
     font-size: 30px; 
+    padding-bottom: 0px;
 }
 #footer-text p {
     float:right;
@@ -288,7 +290,7 @@ footer {
         margin-top: 35px;
         font-size: 15px;  
         text-align: center;
-        
+        padding-left: 100px;
     }
     .social-media a {
     text-decoration: none;
@@ -331,6 +333,39 @@ footer {
     }
     
     }
+    @media screen and(max-width: 950px) {
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+        #cover-text {
+            left: 0;
+        }
+        #cover-text h2 {
+            width: 90%;
+            height: 1200px;
+            margin-bottom: 0 auto;
+        }
+        #we-are {
+            width: 90%;
+            height: 1200px;
+            margin-bottom: 0 auto;
+        }
+        #models-gallery {
+            column-count: 2;
+        }
+
+    }
+    @media screen and(max-width: 800px) {
+        #models-gallery {
+            column-count: 2;
+    }
+        
+    }
+
     
 
 
