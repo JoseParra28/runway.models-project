@@ -139,6 +139,33 @@ transform: scale(1);
 transform: scale(1.1);
     }
 }
+/*
+#table-image {
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:auto ;
+    background-position: center;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-top: 0%;
+    position:absolute;
+    opacity: .6; 
+} */
+.table-image {
+background-image: url(../css/images/man\ in\ white\ top.webp);
+height: 1400px;
+width: 100%;
+background-repeat: no-repeat;
+background-size:auto ;
+background-position: right;
+overflow: hidden;
+margin-left: 0%;
+margin-top: 0%;
+position:relative;
+opacity: .6; 
+
+}
 #table {
     background-color: #3a3a3a;
     background-image: url(../css/images/side\ view\ of\ woman.jpeg);
@@ -198,21 +225,33 @@ transform: scale(1.1);
 }
 /*form*/
 
+.form-image {
+    background-image: url(../css/images/man\ in\ white\ top.webp);
+    height: 1400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:auto ;
+    background-position: right;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-top: 0%;
+    position:relative;
+    opacity: .6; 
+
+}
+
 #form-section {
     clear:both;
-    /*background-image: url(../css/images/man\ in\ white\ top.webp);*/
-    background-image: url(../css/images/white\ suit.jpeg);
-    background-color: #3a3a3a;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
-    overflow: hidden;
+    overflow:hidden;
 }
 .signup-form {
     margin: 150px 10% 0 0;
     color: #3a3a3a;
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 22%;
     padding: 30px;
 
 }
@@ -231,7 +270,7 @@ transform: scale(1.1);
 }
 .text-input-form:hover { 
     border-color:#3a3a3a;
-    background-color: rgb(36, 53, 36);
+    background-color: rgb(188, 207, 188);
     opacity: .9;
 }
 .join-button {
@@ -301,22 +340,7 @@ footer {
     }
 
 
-/*
-#form-image {
-    
-    height: 1400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size:auto ;
-    background-position: right;
-    overflow: hidden;
-    margin-left: 0%;
-    margin-top: 0%;
-    position: relative;
-    opacity: .6; 
 
-}
-*/
 @media screen and (max-width:1200px ){
     body {
         width: 65%;
