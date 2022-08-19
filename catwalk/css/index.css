@@ -2,7 +2,7 @@
 *{
     padding: 0%;
     margin: 0%;
-    border: none;
+    box-sizing: border-box;
 }
 body{
     font-family: lato, sans-serif;
@@ -12,7 +12,53 @@ body{
     width: auto;
     /*heading and logo*/   
 }
+#hero-image {
+    height: 1400px;
+    width: 100%;
+    background-image: url(../css/images/happy\ girl.jpeg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;    
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo {
+    color:rgb(188, 184, 184) ;
+    font-size: 4em;
+    border-bottom: rgb(188, 184, 184) ;
+    border-width: 2px;
+    border-bottom: solid;
+}
+span {
+    color: #7f2525;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+    font-size: 2em;
+}
+nav ul li a {
+    color:#3a3a3a;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    border-bottom: 2px solid #7f2525;
+    transition: .3s;
 
+}
+
+
+
+/*
 #logo {
     float: left;
     font-size: 280%;
@@ -54,6 +100,10 @@ text-decoration: none;
 .active {
     border-bottom: none
 }
+*/
+
+
+/*
 #hero-image{
     height: 1400px;
     width: 100%;
@@ -66,9 +116,9 @@ text-decoration: none;
     margin-top: 0%;
     position: relative;
     opacity: .7;
+    */
     
     
-}
 
 #cover-text {
     font-family: 'Oswald' sans-serif;
