@@ -195,12 +195,10 @@ transform: scale(1.1);
     z-index: 2;
 }
 #model-names {
-    float: right;
-    list-style: none;
-    margin-right: 150px;
-    margin-top: 30px;
-    font-size: 30px;
     display: block;
+    color: rgb(188, 184, 184);
+    text-decoration: none;
+    
 }
 
 /*form*/
@@ -342,8 +340,29 @@ footer {
     transition: .3s;
     color: rgb(247, 239, 239);
     transition: .3s;
-    opacity: .4;
+    
 }
+#twitter:hover {
+    transition: .3s;
+    color:#00acee;
+    transition: .3s;
+}
+#youtube:hover {
+    transition: .3s;
+    color:#FF0000;
+    transition: .3s;
+}
+#instagram:hover {
+    transition: .3s;
+    color:#9d3b45;
+    transition: .3s;
+}
+#facebook:hover{
+    transition: .3s;
+    color: 	#4267B2;
+    transition: .3s;
+}
+
 
 @media (max-width:400px) {
     .burger {
