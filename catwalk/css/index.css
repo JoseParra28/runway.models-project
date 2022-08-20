@@ -312,6 +312,7 @@ transform: scale(1.1);
 table td {
     font-size: 20px;
 }
+
 footer {
     
     width: 100%;
@@ -322,7 +323,7 @@ footer {
 .social-media {
     display: flex;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 0;
     color: rgb(247, 239, 239);
     justify-content: center;
 
@@ -365,6 +366,10 @@ footer {
     transition: .3s;
     color: 	#4267B2;
     transition: .3s;
+}
+.menu-bar-footer {
+    justify-content: center;
+    padding-top: 10px;
 }
 
 
