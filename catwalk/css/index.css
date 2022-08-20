@@ -52,7 +52,7 @@ nav ul li {
     letter-spacing: 2px;
 }
 nav ul li a {
-    color:#3a3a3a;
+    color:rgb(188, 184, 184);
     text-decoration: none;
     font-weight: bold;
 }
@@ -61,70 +61,6 @@ nav ul li a:hover {
     transition: .3s;
 
 }
-
-
-
-/*
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 150px;
-    border-bottom: 2px solid #3a3a3a;
-    position: relative;
-    
-}
-    h1,h2{
-        font-family: 'Oswald' sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        color: rgb(188, 184, 184);
-        margin-right: 30px;
-        
-    }
-
-#mennu, #logo {
-line-height: 75px;
-position: relative;
-}
-#menu li {
-    float: right;
-    list-style: none;
-    margin-right: 150px;
-    margin-top: 30px;
-    font-size: 30px;
-    
-    
-}
-#menu a {
-text-decoration: none;
-    color: inherit;
-}
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-    
-}
-.active {
-    border-bottom: none
-}
-*/
-
-
-/*
-#hero-image{
-    height: 1400px;
-    width: 100%;
-    background: url(../css/images/happy\ girl.jpeg);
-    background-repeat: no-repeat;
-    background-size:cover ;
-    background-position: center;
-    overflow: hidden;
-    margin-left: 0%;
-    margin-top: 0%;
-    position: relative;
-    opacity: .7;
-    */
-    
-    
 
 #cover-text {
     font-family: 'Oswald' sans-serif;
@@ -196,52 +132,7 @@ transform: scale(1);
 transform: scale(1.1);
     }
 }
-/*
-#table-image {
-    height: 100px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size:auto ;
-    background-position: center;
-    overflow: hidden;
-    margin-left: 0%;
-    margin-top: 0%;
-    position:absolute;
-    opacity: .6; 
-} */
-/*
-.table-image {
-background-image: url(../css/images/man\ in\ white\ top.webp);
-height: 1400px;
-width: 100%;
-background-repeat: no-repeat;
-background-size:auto ;
-background-position: right;
-overflow: hidden;
-margin-left: 0%;
-margin-top: 0%;
-position:relative;
-opacity: .6; 
-
-}
-#table {
-    background-color: #3a3a3a;
-    background-image: url(../css/images/side\ view\ of\ woman.jpeg);
-    width: 400px;
-    position:relative;
-    text-align: left;
-    margin-right: 500px;
-    margin-left: 200px;
-    margin-bottom: 5px;
-    padding-right: 200px;
-    
-   }
-#table th {
-    text-align: center;
-}
-*/
-
-
+/*about page*/
 #about-image {
     background-image: url(../css/images/side\ view\ of\ woman.jpeg);
     height: 1400px;
@@ -255,6 +146,7 @@ opacity: .6;
     position: relative;
     opacity: .6;   
 }
+/*our models page*/
 .models-gallery {
     width: 90%;
     padding: 0px;
@@ -313,33 +205,38 @@ opacity: .6;
     background-size:cover;
     background-position: center;
     overflow:hidden;
+
 }
 .signup-form {
     margin: 150px 10% 0 0;
-    color: #3a3a3a;
+    color: black;
     max-width: 400px;
     position: absolute;
     left: 22%;
     padding: 30px;
+    font-size: 22px;
 
 }
 .signup-form > h2 {
-    color: #3a3a3a;
+    color: black;
     margin-bottom: 20px;
+    font-size: 35px;
 }
 .text-input-form {
     background:transparent;
-    color:#3a3a3a;
+    color:#000000;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #3a3a3a;
     border-radius: 2px;
+    font-size: 18px;
 }
 .text-input-form:hover { 
     border-color:#3a3a3a;
-    background-color: rgb(188, 207, 188);
+    background-color: rgb(188, 184, 184);
     opacity: .9;
+    
 }
 .join-button {
     margin-top: 20px;
@@ -347,11 +244,12 @@ opacity: .6;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color:#3a3a3a;
+    background-color:#111111;
     display: block;
+    color: rgb(188, 184, 184);
 }
 .join-button:hover {
-    background-color: rgb(36, 53, 36);
+    background-color:#7f2525;
     color: rgb(188, 184, 184);
     opacity: .9;
 }
@@ -412,61 +310,15 @@ footer h5  {
     line-height: 30px;
     display: inline-block;
     text-align: center;
-    opacity: .75;
+    opacity: .7;
 }
 
 .social-media:hover {
     transition: .3s;
     color: rgb(247, 239, 239);
+    transition: .3s;
+    opacity: .4;
 }
-/*
-#footer-text {
-    text-align: center;
-    display: block;
-}
-#footer-text h3 {
-    float:right;
-    text-align: center;
-    letter-spacing: 2px;
-    list-style:none;
-    margin-right: 700px;
-    margin-top: 5px;
-    font-size: 30px; 
-    padding-bottom: 0px;
-}
-#footer-text p {
-    float:right;
-    text-align: center;
-    letter-spacing: 2px;
-    list-style:none;
-    margin-right: 530px;
-    margin-top: 5px;
-    font-size: 20px;
-
-}
-.social-media {
-    text-align: center;
-    display: block;
-    }
-    
-    .social-media li {
-        float: right;
-        list-style:none;
-        margin-right: 10px;
-        margin-top: 35px;
-        font-size: 15px;  
-        text-align: center;
-        padding-left: 100px;
-    }
-    .social-media a {
-    text-decoration: none;
-        color: inherit;
-    }
-    .social-media a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
-*/
-
 
 @media screen and (max-width:1200px ){
     body {
