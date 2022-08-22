@@ -15,15 +15,13 @@
 </head>
 <body>
     <header>
-       <div>
+       <div class="container">
+        <div class="nav-bar">
+            <img src="/catwalk/css/images/hamburger-icon-jpeg.jpeg" alt="hamburger-menu" class="burger-bar" onclick="togglemenu()">
         <nav>
             <h1><a class="logo" href="index.html">Runway <span>Models</span></a></h1>
-            <a href="#" class="burger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <ul id="menu-bar">
+
+            <ul id="menuList">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="models.html">Our Models</a></li>
@@ -31,6 +29,7 @@
             </ul>
         </nav>
        </div>
+    </div>
 </header>
 
 <section id="hero-outer">
@@ -56,9 +55,24 @@
         </ul>
     </nav>
     </footer>
+    <script>
+        
+        var menuList = document.getElementById("menuList");
+        
+        menuList.style.maxHeight="0px"
 
+        function togglemenu (){
+        
+            if (menuList.style.maxHeight=="0px")
+            {
+                menuList.style.maxHeight=="130px"
+            }
+            else 
+            {
+                menuList.style.maxHeight="0px"
+            }
+    }
 
-
-
+    </script>
 </body>
 </html>
