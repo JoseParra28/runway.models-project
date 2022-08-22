@@ -40,6 +40,7 @@ nav {
     border-bottom: solid;
     text-decoration: none;
     letter-spacing: 8px;
+
 }
 
 span {
@@ -375,11 +376,12 @@ footer {
         top: 75px;
         right: 0;
         z-index: 2;
+
     }
     nav ul li {
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        display: inline-flex;
+        margin-top: 5px;
+        margin-bottom: 5px;
 
     }
     nav ul li a {
@@ -388,8 +390,16 @@ footer {
     .burger-bar{
         display:flex;
     }
+    
     }
 
+    @media screen and (max-width:700px){
+        .logo {
+            font-size: 30px;
+            
+        }
+
+    }
 /*
 @media (max-width:400px) {
     .burger {
@@ -408,6 +418,8 @@ footer {
     .menu-bar .active {
         display: flex;
     }
+
+<img src="/catwalk/css/images/hamburger-icon-jpeg.jpeg" alt="hamburger-menu" class="burger-bar" onclick="togglemenu()">
 
 }
 */
