@@ -107,11 +107,10 @@ transform: scale(1.1);
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 5px; 
-    margin-left: 350px ;
-    margin-top: 250px;
     position: absolute;
+    left: 6%;
+    top: 30%;
     text-align: left 10;
-    clear: both;
     animation-name: about-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -429,16 +428,21 @@ footer {
     #cover-text h2 {
         font-size: 3em;
     }
-    #we-are h2 {
+    #we-are {
         font-family: 'Oswald' sans-serif;
         font-size: 2em;
         text-transform: uppercase;
         letter-spacing: 5px; 
-        left: 1%;
-        bottom: 40%;
+        left: 10%;
+        top: 30%;
         position: absolute;
-        text-align: left;
-        justify-content: flex-start;
+        text-align: left 10;
+}
+#we-are h2  {
+    font-size: 25px;
+}
+#we-are p{
+    font-size: 20px;
 }
 }
 @media screen and (max-width:700px) and (min-width:90px) {
@@ -460,35 +464,24 @@ footer {
     }
     #cover-text h2 {
         font-size: 1em;
-
+}
+#we-are {
+    font-family: 'Oswald' sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px; 
+    left: 5%%;
+    top: 20%;
+    position: absolute;
+    text-align: left 10;
     
 }
+#we-are h2  {
+    font-size: 20px;
 }
-
-/*
-@media (max-width:400px) {
-    .burger {
-        display: flex;
-    }
-    .menu-bar {
-        display: none;
-    }
-    .menu-bar ul {
-        width: 100%;
-        flex-direction: column;
-    }
-    .menu-bar li{
-        text-align: center;
-    }
-    .menu-bar .active {
-        display: flex;
-    }
-
-<img src="/catwalk/css/images/hamburger-icon-jpeg.jpeg" alt="hamburger-menu" class="burger-bar" onclick="togglemenu()">
-
+#we-are p{
+    font-size: 10px;
 }
-*/
-    
+}
 
 
 
