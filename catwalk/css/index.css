@@ -50,7 +50,7 @@ nav ul li {
     list-style-type: none;
     display: inline-flex;
     padding: 10px;
-    font-size: 1em;
+    font-size: 2em;
     letter-spacing: 2px;
 }
 nav ul li a {
@@ -149,16 +149,17 @@ transform: scale(1.1);
 }
 /*our models page*/
 .models-gallery {
-    width: 90%;
+    width: 100%;
     padding: 0px;
     margin: 100px auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    left: 50%;
 }
 #foto {
     padding-top: 300px;
-    width: 350px;
+    width: 500px;
     margin: 0 10px;
     box-shadow: 0 0 10px 2px rgb(0,0,0 .1);
     transition: 1s;
