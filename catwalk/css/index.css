@@ -14,8 +14,8 @@ body{
     /*heading and logo*/   
 }
 #hero-image {
-    height: 1400px;
-    width: 193vh;
+    height: 164vh;
+    width: 100%;
     background-image: url(../css/images/happy\ girl.jpeg);
     background-position: center;
     background-size:cover;
@@ -248,8 +248,9 @@ transform: scale(1.1);
     margin: 100px auto;
     display:contents;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-end;
     left: 50%;
+    
 }
 #foto {
     padding-top: 30px;
@@ -258,10 +259,11 @@ transform: scale(1.1);
     box-shadow: 0 0 10px 2px rgb(0,0,0 .1);
     transition: 1s;
     
+    
 }
 #foto img {
     display:block;
-    width: 100%;
+    width: 15%;
     border-radius: 2px;
     
     
