@@ -246,14 +246,14 @@ transform: scale(1.1);
     width: 100%;
     padding: 0px;
     margin: 100px auto;
-    display: flex;
+    display:contents;
     flex-direction: column;
     justify-content: center;
     left: 50%;
 }
 #foto {
-    padding-top: 300px;
-    width: 500px;
+    padding-top: 30px;
+    width: 600px;
     margin: 0 10px;
     box-shadow: 0 0 10px 2px rgb(0,0,0 .1);
     transition: 1s;
@@ -269,12 +269,6 @@ transform: scale(1.1);
 #foto:hover {
     transform:scale(1.2);
     z-index: 2;
-}
-#model-names {
-    display: block;
-    color: rgb(188, 184, 184);
-    text-decoration: none;
-    
 }
 
 /*form*/
