@@ -232,7 +232,7 @@ transform: scale(1.1);
  
 /*about page*/
 #about-image {
-    height: 1400px;
+    height: 160vh;
     width: 100%;
     background-image: url(../css/images/side\ view\ of\ woman.jpeg);
     background-position: center;
@@ -469,6 +469,7 @@ footer {
 @media screen and (max-width:800px) and (min-width:90px) {
     #hero-image {
         width: 98vh;
+    }
 
 #we-are {
     font-family: 'Oswald' sans-serif;
@@ -486,8 +487,7 @@ footer {
 #we-are p{
     font-size: 10px;
 }
-}
-}
 
+}
 
 
