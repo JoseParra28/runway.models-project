@@ -191,8 +191,7 @@ transform: scale(1.1);
 }
 #cover-text h2{
     font-size: 40px;
-    color: #3a3a3a;
-    border-bottom: 1px solid;
+    
 }
 
 /* about page */
@@ -232,7 +231,7 @@ transform: scale(1.1);
  
 /*about page*/
 #about-image {
-    height: 160vh;
+    height: 164vh;
     width: 100%;
     background-image: url(../css/images/side\ view\ of\ woman.jpeg);
     background-position: center;
@@ -246,16 +245,22 @@ transform: scale(1.1);
     width: 100%;
     padding: 0px;
     margin: 100px auto;
-    display:contents;
+
     flex-direction: column;
     justify-content:flex-end;
     left: 50%;
-    
+    clear: both;
+    line-height: 0%;
+    column-gap: 4px;
 }
+.models-gallery img {
+    width: 100%;
+}
+
 #foto {
     padding-top: 30px;
     width: 600px;
-    margin: 0 10px;
+    
     box-shadow: 0 0 10px 2px rgb(0,0,0 .1);
     transition: 1s;
     
@@ -447,7 +452,7 @@ footer {
 
 @media screen and (max-width:1200px) and (min-width:800px) {
     #hero-image {
-        width: 105vh;
+        width: 110vh;
     }
    
     #we-are {
@@ -460,6 +465,9 @@ footer {
         position: absolute;
         text-align: left 10;
 }
+#about-image {
+    width: 110vh;
+}
 #we-are h2  {
     font-size: 25px;
 }
@@ -470,6 +478,9 @@ footer {
 }
 @media screen and (max-width:800px) and (min-width:90px) {
     #hero-image {
+        width: 98vh;
+    }
+    #about-image {
         width: 98vh;
     }
 
