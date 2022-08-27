@@ -245,7 +245,6 @@ transform: scale(1.1);
     width: 100%;
     padding: 0px;
     margin: 100px auto;
-
     flex-direction: column;
     justify-content:flex-end;
     left: 50%;
@@ -260,7 +259,6 @@ transform: scale(1.1);
 #foto {
     padding-top: 30px;
     width: 600px;
-    
     box-shadow: 0 0 10px 2px rgb(0,0,0 .1);
     transition: 1s;
     
@@ -282,16 +280,15 @@ transform: scale(1.1);
 
 .form-image {
     background-image: url(../css/images/man\ in\ white\ top.webp);
-    height: 1400px;
+    height: 164vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-size:auto ;
+    background-size:cover;
     background-position: right;
     overflow: hidden;
     margin-left: 0%;
     margin-top: 0%;
     position:relative;
-    opacity: .6; 
 
 }
 
@@ -454,28 +451,16 @@ footer {
     #hero-image {
         width: 110vh;
     }
+    .form-image {
+        width: 110vh;
+    }
+    #about-image {
+        width: 110vh;
+    }
    
-    #we-are {
-        font-family: 'Oswald' sans-serif;
-        font-size: 2em;
-        text-transform: uppercase;
-        letter-spacing: 5px; 
-        left: 10%;
-        top: 30%;
-        position: absolute;
-        text-align: left 10;
-}
-#about-image {
-    width: 110vh;
-}
-#we-are h2  {
-    font-size: 25px;
-}
-#we-are p{
-    font-size: 20px;
 }
 
-}
+
 @media screen and (max-width:800px) and (min-width:90px) {
     #hero-image {
         width: 98vh;
@@ -483,23 +468,9 @@ footer {
     #about-image {
         width: 98vh;
     }
-
-#we-are {
-    font-family: 'Oswald' sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px; 
-    left: 5%;
-    top: 20%;
-    position: absolute;
-    text-align: left 10;
-    
-}
-#we-are h2  {
-    font-size: 20px;
-}
-#we-are p{
-    font-size: 10px;
-}
+    .form-image {
+        width: 110vh;
+    }
 
 }
 
