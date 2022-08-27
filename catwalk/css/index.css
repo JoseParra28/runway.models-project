@@ -472,16 +472,30 @@ footer {
 
 @media screen and (max-width:800px) and (min-width:0px) {
     #hero-image {
-        width: 98vh;
+        width: 46vh;
     }
     #about-image {
-        width: 98vh;
+        width: 56vh;
+    }
+    #foto {
+        width: 386px;
+    }
+    #we-are h2 {
+        font-size: 16px;
+        padding-left: 14px;
+        
+    }
+    #we-are p {
+        font-size: 18px;
+        display: flex;
+        padding-right: 171px;
+        padding-left: 14px;
     }
     .form-image {
         width: 110vh;
     }
     #cover-text {
-        font-size: 5px;
+        font-size: 3px;
         bottom: 50%;
     }
     .logo {
@@ -508,8 +522,8 @@ footer {
       }
       label .hamburger {
         position: absolute;
-        top: 135px;
-        left: 169px;
+        top: 148px;
+        left: 83px;
         width: 30px;
         height: 2px;
         background: rgb(188, 184, 184);
