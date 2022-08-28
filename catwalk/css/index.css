@@ -366,10 +366,15 @@ footer {
     }
     #about-image {
         width: 110vh;
+        height: 100vh;
     }
     label .menu {
         right: 100px;
 
+    }
+    #cover-text h2 {
+        font-size: 40px;
+        bottom: 40%;
     }
 
 
@@ -472,10 +477,13 @@ footer {
 
 @media screen and (max-width:800px) and (min-width:0px) {
     #hero-image {
-        width: 68vh;
+        width: 59vh;
+        height: 95vh;
     }
     #about-image {
-        width: 56vh;
+        width: 75vh;
+        height: 102vh;
+
     }
     #foto {
         width: 386px;
@@ -494,12 +502,12 @@ footer {
     .form-image {
         width: 110vh;
     }
-    #cover-text {
-        font-size: 5px;
+    #cover-text h2 {
+        font-size: 15px;
         bottom: 70%;
     }
     .logo {
-        font-size: 25px;
+        font-size: 30px;
     }
     label .menu {
         right: 0px;
