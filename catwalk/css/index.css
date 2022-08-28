@@ -389,9 +389,9 @@ footer {
         
       }
       label .hamburger {
-        position: absolute;
-        top: 135px;
-        left: 169px;
+        position: fixed;
+        top: 78px;
+        left: 0px;
         width: 30px;
         height: 2px;
         background: rgb(188, 184, 184);
@@ -472,7 +472,7 @@ footer {
 
 @media screen and (max-width:800px) and (min-width:0px) {
     #hero-image {
-        width: 46vh;
+        width: 68vh;
     }
     #about-image {
         width: 56vh;
@@ -495,8 +495,8 @@ footer {
         width: 110vh;
     }
     #cover-text {
-        font-size: 3px;
-        bottom: 50%;
+        font-size: 5px;
+        bottom: 70%;
     }
     .logo {
         font-size: 25px;
@@ -521,10 +521,15 @@ footer {
         
       }
       label .hamburger {
-        position: absolute;
-        top: 148px;
-        left: 83px;
-        width: 30px;
+        position: fixed;
+        top: 48px;
+        left: 0px;
+        width: 15px;
+
+        position: fixed;
+        top: 48px;
+        left: 0px;
+        width: 15px;
         height: 2px;
         background: rgb(188, 184, 184);
         display: block;
