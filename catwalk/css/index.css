@@ -78,12 +78,12 @@ nav ul li a:hover {
 #cover-text {
         justify-items: auto;
         font-family: 'Oswald' sans-serif;
-        font-size: 10px;
+        font-size: 8px;
         text-transform:none;
         letter-spacing: 4px;
-        width: 100px;
+        width: 85%;
         height: 120px;
-        bottom: 70%;
+        bottom: 60%;
         left: 10%;
         white-space:nowrap;
         position: absolute;
@@ -358,27 +358,32 @@ footer {
     padding-top: 10px;
 }
 
-@media screen and (max-width:1200px) and (min-width:800px) {
+@media screen and (max-width:1200px) {
     #hero-image {
-        width: 110vh;
+        width: 86vh;
+        height:54vh ;
     }
     .form-image {
-        width: 110vh;
+        width: 142vh;
+        height: 90vh;
     }
     #about-image {
-        width: 110vh;
+        width: 142vh;
         height: 100vh;
     }
     label .menu {
         right: 100px;
 
     }
-    #cover-text h2 {
-        font-size: 40px;
-        bottom: 40%;
+
+    #cover-text {
+        top: 35%;
+        left: 5%;
+        font-size: 9px;
     }
 
-
+   
+    
     label .menu {
         position: absolute;
         margin-right: 6%;
@@ -472,11 +477,14 @@ footer {
         text-decoration: none;
         
       }
+      iframe {
+        width: 100%;
+    }
    
 }
 
 
-@media screen and (max-width:800px) and (min-width:0px) {
+@media screen and (max-width:900px) {
     #hero-image {
         width:46vh;
         height: 95vh;
@@ -502,7 +510,7 @@ footer {
     }
     .form-image {
         height: 66vh;
-        width: 47vh;
+        width: 107vh;
     }
     #cover-text h2 {
         font-size: 11px;
@@ -510,7 +518,7 @@ footer {
     }
     
     .logo {
-        font-size: 30px;
+        font-size: 25px;
     }
     label .menu {
         right: 0px;
@@ -657,6 +665,18 @@ footer {
 }
 iframe {
     width: 100%;
+}
+.container h3 {
+    font-size: 1rem;
+}
+.container h5 {
+    font-size: 13px ;
+}
+#table th {
+    font-size: 1em;
+}
+table td {
+    font-size: 13px;
 }
 }
 
