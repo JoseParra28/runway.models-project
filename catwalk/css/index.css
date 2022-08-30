@@ -353,8 +353,106 @@ footer {
     justify-content: center;
     padding-top: 10px;
 }
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
 
 @media screen and (max-width:1200px) {
+
+nav
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+.main{
+  position:absolute;
+  z-index:1;
+  
+}
+.main li{
+  list-style:none;
+  background: rgb(20, 19, 19);
+  width:100px;
+  padding: 0 5px;
+  border: 1px solid black;
+  height: 30px;
+
+  line-height: 30px;
+  
+  -webkit-transition: all .5s ease-in-out;
+  
+}
+
+.main li:nth-child(odd){
+  
+  -webkit-transform-origin: top;
+  -webkit-transform: perspective(350px) rotateX(-90deg);
+}
+
+.main li:nth-child(even){
+   margin-top:-65px;
+  -webkit-transform-origin: bottom;
+  -webkit-transform: perspective(350px) rotateX(90deg);
+}
+
+.main {
+  
+  -webkit-transition: all .5s ease-in-out;
+  -webkit-transform-origin: 50% 0%;
+  -webkit-transform: perspective(350px) rotateX(-90deg);
+}
+
+.hov:hover .main {
+  
+  -webkit-transform-origin: top;
+  -webkit-transform: perspective(350px) rotateX(0deg);
+}
+
+.hov:hover li:nth-child(odd){
+  -webkit-transform-origin: top;
+  -webkit-transform: perspective(350px) rotateX(0deg);
+  margin-top:0;
+}
+
+.hov:hover li:nth-child(even){
+  -webkit-transform-origin: bottom;
+  -webkit-transform: perspective(350px) rotateX(0deg);
+   margin-top:0;
+}
+.hov{
+    position:relative;
+    height: 40px;
+    width:112px;
+    background:#3a3a3a;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    line-height: 40px;
+    list-style:none;
+    z-index:2;
+    
+  }
+
+
     #hero-image {
         width: 97vh;
         height:54vh ;
@@ -378,101 +476,6 @@ footer {
         font-size: 9px;
     }
 
-   
-    
-    label .menu {
-        position: absolute;
-        margin-right: 6%;
-        right: -100px;
-        top: -100px;
-        z-index: 100;
-        width: 200px;
-        background:rgb(20, 19, 19);
-        border-radius: 50% 50% 50% 50%;
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-        box-shadow: 0 0 0 0 rgb(20, 19, 19), 0 0 0 0 rgb(20, 19, 19);
-        cursor: pointer;
-        
-      }
-      label .hamburger {
-        position: fixed;
-        top: 78px;
-        left: 0px;
-        width: 30px;
-        height: 2px;
-        background: rgb(188, 184, 184);
-        display: block;
-        -webkit-transform-origin: center;
-        transform-origin: center;
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-      }
-      
-      label .hamburger:after, label .hamburger:before {
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-        content: "";
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100%;
-        background: #69d2e7;
-      }
-      
-      label .hamburger:before { top: -10px; }
-      
-      label .hamburger:after { bottom: -10px; }
-      
-      label input { display: none; }
-      
-      label input:checked + .menu {
-        box-shadow: 0 0 0 100vw rgb(20, 19, 19), 0 0 0 100vh rgb(20, 19, 19);
-        border-radius: 0;
-        
-      }
-      
-      label input:checked + .menu .hamburger {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        
-      }
-      
-      label input:checked + .menu .hamburger:after {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-        bottom: 0;
-        
-      }
-      
-      label input:checked + .menu .hamburger:before {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-        top: 0;
-        
-      }
-      
-      label input:checked + .menu + ul { opacity: 1; }
-      
-      label ul {
-        z-index: 200;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        -webkit-transition: .25s 0s ease-in-out;
-        transition: .25s 0s ease-in-out;
-      }
-      
-      label a {
-        margin-bottom: 1em;
-        display: block;
-        color: #f38630;
-        text-decoration: none;
-        
-      }
       iframe {
         width: 100%;
     }
@@ -519,109 +522,6 @@ footer {
     .logo {
         font-size: 25px;
     }
-    label .menu {
-        right: 0px;
-
-    }
-    label .menu {
-        position: absolute;
-        margin-right: 6%;
-        right: -100px;
-        top: -100px;
-        z-index: 100;
-        width: 200px;
-        background:rgb(20, 19, 19);
-        border-radius: 50% 50% 50% 50%;
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-        box-shadow: 0 0 0 0 rgb(20, 19, 19), 0 0 0 0 rgb(20, 19, 19);
-        cursor: pointer;
-        
-      }
-      label .hamburger {
-        position: fixed;
-        top: 48px;
-        left: 0px;
-        width: 15px;
-
-        position: fixed;
-        top: 48px;
-        left: 0px;
-        width: 15px;
-        height: 2px;
-        background: rgb(188, 184, 184);
-        display: block;
-        -webkit-transform-origin: center;
-        transform-origin: center;
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-      }
-      
-      label .hamburger:after, label .hamburger:before {
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-        content: "";
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100%;
-        background: #69d2e7;
-      }
-      
-      label .hamburger:before { top: -10px; }
-      
-      label .hamburger:after { bottom: -10px; }
-      
-      label input { display: none; }
-      
-      label input:checked + .menu {
-        box-shadow: 0 0 0 100vw rgb(20, 19, 19), 0 0 0 100vh rgb(20, 19, 19);
-        border-radius: 0;
-        
-      }
-      
-      label input:checked + .menu .hamburger {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        
-      }
-      
-      label input:checked + .menu .hamburger:after {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-        bottom: 0;
-        
-      }
-      
-      label input:checked + .menu .hamburger:before {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-        top: 0;
-        
-      }
-      
-      label input:checked + .menu + ul { opacity: 1; }
-      
-      label ul {
-        z-index: 200;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        -webkit-transition: .25s 0s ease-in-out;
-        transition: .25s 0s ease-in-out;
-      }
-      
-      label a {
-        margin-bottom: 1em;
-        display: block;
-        color: #f38630;
-        text-decoration: none;
-        
-      }
-      
     
     #form-section {
         clear:both;
