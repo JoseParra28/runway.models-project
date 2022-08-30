@@ -101,6 +101,7 @@ transform: scale(1.1);
 }
 #cover-text h2{
     font-size: 4em;
+
     
 }
 
@@ -477,11 +478,11 @@ footer {
 
 @media screen and (max-width:800px) and (min-width:0px) {
     #hero-image {
-        width: 59vh;
+        width:46vh;
         height: 95vh;
     }
     #about-image {
-        width: 75vh;
+        width: 47vh;
         height: 102vh;
 
     }
@@ -496,14 +497,14 @@ footer {
     #we-are p {
         font-size: 18px;
         display: flex;
-        padding-right: 171px;
+        width: 100%;
         padding-left: 14px;
     }
     .form-image {
         width: 110vh;
     }
     #cover-text h2 {
-        font-size: 15px;
+        font-size: 11px;
         bottom: 70%;
     }
     .logo {
