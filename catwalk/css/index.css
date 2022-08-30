@@ -76,8 +76,7 @@ nav ul li a:hover {
 
 
 #cover-text {
-        justify-items: auto;
-        font-family: 'Oswald' sans-serif;
+        
         font-size: 8px;
         text-transform:none;
         letter-spacing: 4px;
@@ -107,14 +106,13 @@ transform: scale(1.1);
 
 /* about page */
 #we-are  {
-    font-family: 'Oswald' sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 5px; 
     position: absolute;
     left: 6%;
     top: 30%;
-    text-align: left 10;
+    text-align: left;
     animation-name: about-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -129,7 +127,6 @@ transform: scale(1.1);
   
 }
 #we-are-p {
-    font-family: 'Oswald' sans-serif;
     font-size: 30px;
     text-transform: capitalize;
     letter-spacing: 5px;
@@ -170,9 +167,8 @@ transform: scale(1.1);
 #foto {
     padding-top: 30px;
     width: 600px;
-    box-shadow: 0 0 10px 2px rgb(0,0,0 .1);
+    box-shadow: 0 0 10px 2px rgb(247, 239, 239);
     transition: 1s;
-    
     
 }
 #foto img {
@@ -360,7 +356,7 @@ footer {
 
 @media screen and (max-width:1200px) {
     #hero-image {
-        width: 86vh;
+        width: 97vh;
         height:54vh ;
     }
     .form-image {
@@ -486,8 +482,8 @@ footer {
 
 @media screen and (max-width:900px) {
     #hero-image {
-        width:46vh;
-        height: 95vh;
+        width:72vh;
+        height: 101vh;
     }
     #about-image {
         width: 47vh;
@@ -509,13 +505,16 @@ footer {
         padding-left: 14px;
     }
     .form-image {
-        height: 66vh;
-        width: 107vh;
-    }
-    #cover-text h2 {
-        font-size: 11px;
-        bottom: 70%;
-    }
+        height: 47vh;
+        width: 73vh;
+}
+    
+    #cover-text {
+            top: 15%;
+            left: 7%;
+            font-size: 3px;
+}
+    
     
     .logo {
         font-size: 25px;
