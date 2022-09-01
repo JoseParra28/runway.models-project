@@ -512,7 +512,7 @@ ul,li{
         padding-left: 14px;
     }
     .form-image {
-        height: 68vh;
+        height: 82vh;
         width: 80vh;
 }
     
@@ -582,10 +582,22 @@ table td {
     font-size: 13px;
 }
 }
-/*
-@media screen and (max-width:800px) {
-    .container-gallery {
-        column-count: 2;
+
+@media screen and (max-width:400px) {
+    #hero-image {
+        width: 47vh;
+        height: 56vh;
     }
+    #about-image {
+        width: 46vh;
+        height: 67vh;
+    }
+    .form-image {
+        height: 51vh;
+        width: 53vh;
 }
-*/
+#we-are {
+    top: 10%;
+
+}
+}
