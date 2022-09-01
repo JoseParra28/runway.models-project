@@ -164,7 +164,7 @@ transform: scale(1.1);
 }
 .gallery img {
     width: 100%;
-    height: auto;
+    height: 45vh;
 
 }
 .desc {
@@ -443,8 +443,9 @@ ul,li{
 .hov{
     font-family: inherit;
     position:relative;
-    height: 40px;
-    width:112px;
+    height: 34px;
+    width: 58px;
+    border-radius: 3%;
     background:#3a3a3a;
     color: white;
     font-size: 10px;
@@ -486,7 +487,7 @@ ul,li{
 }
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:950px) {
     #hero-image {
         width:72vh;
         height: 101vh;
@@ -581,4 +582,10 @@ table td {
     font-size: 13px;
 }
 }
-
+/*
+@media screen and (max-width:800px) {
+    .container-gallery {
+        column-count: 2;
+    }
+}
+*/
