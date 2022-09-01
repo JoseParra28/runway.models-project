@@ -458,8 +458,8 @@ ul,li{
 
 
     #hero-image {
-        width: 101vh;
-        height:61vh ;
+        width: 130vh;
+        height:68vh ;
     }
     .form-image {
         width: 142vh;
@@ -489,12 +489,12 @@ ul,li{
 
 @media screen and (max-width:950px) {
     #hero-image {
-        width:80vh;
+        width:130vh;
         height: 101vh;
     }
     #about-image {
-        width: 80vh;
-        height: 146vh;
+        width: 103vh;
+        height: 93vh;
 
     }
     #foto {
@@ -513,7 +513,7 @@ ul,li{
     }
     .form-image {
         height: 82vh;
-        width: 80vh;
+        width: 103vh;
 }
     
     #cover-text {
