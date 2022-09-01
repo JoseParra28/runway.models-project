@@ -153,7 +153,7 @@ transform: scale(1.1);
     justify-content:center;
     left: 50%;
     clear: both;
-    line-height: 0%;
+    line-height: 120%;
     column-gap: 1px;
 }
 .gallery {
@@ -458,15 +458,15 @@ ul,li{
 
 
     #hero-image {
-        width: 97vh;
-        height:54vh ;
+        width: 101vh;
+        height:61vh ;
     }
     .form-image {
         width: 142vh;
         height: 90vh;
     }
     #about-image {
-        width: 142vh;
+        width: 171vh;
         height: 100vh;
     }
     label .menu {
@@ -489,12 +489,12 @@ ul,li{
 
 @media screen and (max-width:950px) {
     #hero-image {
-        width:72vh;
+        width:80vh;
         height: 101vh;
     }
     #about-image {
-        width: 47vh;
-        height: 102vh;
+        width: 80vh;
+        height: 146vh;
 
     }
     #foto {
@@ -512,8 +512,8 @@ ul,li{
         padding-left: 14px;
     }
     .form-image {
-        height: 47vh;
-        width: 73vh;
+        height: 68vh;
+        width: 80vh;
 }
     
     #cover-text {
