@@ -55,14 +55,34 @@
 // const cal2 = function (birthYear){
 //     return 2037 - birthYear;
 // }
-const cal3 = birthYear => 2037 - birthYear;
-const age3 = cal3 (1991);
-console.log(age3);
+// const cal3 = birthYear => 2037 - birthYear;
+// const age3 = cal3 (1991);
+// console.log(age3);
 
-const retirement = birthYear => {
-     const age = 2037 - birthYear;
-     const retirementYear = 65 - age;
-     const fname = `Jose retires in ${retirementYear} years`;
-     return retirementYear && fname;
-    }
-console.log (retirement(1991));
+// const retirement = birthYear => {
+//      const age = 2037 - birthYear;
+//      const retirementYear = 65 - age;
+//      const fname = `Jose retires in ${retirementYear} years`;
+//      return retirementYear && fname;
+//     }
+// console.log (retirement(1991));
+function greet(name,lastName){
+    console.dir('hello' + name)
+};
+greet('john');
+
+const friend1 = 'michael';
+const friend2 = 'jose';
+const friend3 = 'peter';
+
+const friends = ['michel', 'jose', 'peter']
+console.log(friends[0])
+console.log(friends[2])
+console.log(friends.length - 1);
+
+friends[1] = 'jay'
+console.log(friends)
+
+const firstName = 'jose';
+const jose = [firstName, 'parra' , 2022 - 1993, 'coder', friends];
+console.log(jose)
